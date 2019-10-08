@@ -8,16 +8,16 @@ package com.littlefox.design_patterns.created.factory;
 public class UnionPay implements Pay {
     @Override
     public void transfer() {
-        System.out.println("欢迎使用银联转账");
+        System.out.println("欢迎使用UnionPay转账");
     }
 
     @Override
     public void receipt() {
-        System.out.println("欢迎使用银联收款");
+        System.out.println("欢迎使用UnionPay收款");
     }
 
     @Override
     public void payment() {
-        System.out.println("欢迎使用银联付款");
+        System.out.println("欢迎使用UnionPay付款");
     }
 }

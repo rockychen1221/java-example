@@ -9,16 +9,16 @@ public class WeChatPay implements Pay {
 
     @Override
     public void transfer() {
-        System.out.println("欢迎使用微信转账");
+        System.out.println("欢迎使用WeChatPay转账");
     }
 
     @Override
     public void receipt() {
-        System.out.println("欢迎使用微信收款");
+        System.out.println("欢迎使用WeChatPay收款");
     }
 
     @Override
     public void payment() {
-        System.out.println("欢迎使用微信付款");
+        System.out.println("欢迎使用WeChatPay付款");
     }
 }
