@@ -3,7 +3,7 @@
 
 - Collection
   - List
-     - [ArrayList](src/test/java/littlefox/collection/list/README.md)
+     - [ArrayList](../../test/java/littlefox/collection/list/README.md)
      - Queue
      - Set
 - Map
