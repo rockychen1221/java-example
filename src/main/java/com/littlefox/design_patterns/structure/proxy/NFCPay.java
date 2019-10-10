@@ -1,4 +1,4 @@
-package com.littlefox.design_patterns.created.prototype;
+package com.littlefox.design_patterns.structure.proxy;
 
 /**
  * @author rockychen

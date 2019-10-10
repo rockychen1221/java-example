@@ -1,16 +1,16 @@
-package com.littlefox.design_patterns.created.prototype;
+package com.littlefox.design_patterns.structure.proxy;
 
-public class PayPrototype implements Pay {
+public class PayProxy implements Pay {
 
     private Pay pay;
 
     //默认代理NFC支付
-    public PayPrototype (){
+    public PayProxy(){
         this.pay = new NFCPay();
     }
 
     //可以是任何Pay类型的代理
-    public PayPrototype (Pay pay){
+    public PayProxy(Pay pay){
         this.pay = pay;
     }
 
