@@ -17,8 +17,8 @@ public abstract class Doc {
         this.url = _url;
     }
 
-    public void docInfo(){
-        System.out.println("名称是："+name+"\t大小是：" +size+"\t地址是："+url);
+    public String printInfo(){
+        return ("名称是："+this.name+"\t大小是：" +this.size+"\t地址是："+this.url);
     }
 
 }
