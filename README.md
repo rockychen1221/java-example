@@ -1,7 +1,9 @@
 # java-learning
+> 持续更新中
 
 很多java开发的小伙伴都会阅读jdk源码，然而确不知道应该从哪读起。以下为小编整理的通常所需阅读的源码范围。
 标题为包名，后面序号为优先级1-4，优先级递减
+
 1、java.lang
 
 1) Object 1
@@ -250,12 +252,3 @@ e、put(): 对table[index]加锁
 
 16、TreeSet：委托TreeMap实现
 \---------------------
-
-> java8源码记录
-
-- Collection
-  - List
-     - [ArrayList](../../test/java/littlefox/collection/list/README.md)
-     - Queue
-     - Set
-- Map

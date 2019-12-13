@@ -1,4 +1,4 @@
-package com.littlefox.java8.lambda;
+package java8.lambda;
 
 public class LambdaTest {
 

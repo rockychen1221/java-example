@@ -1,4 +1,4 @@
-package com.littlefox.utils;
+package utils;
 
 import java.io.*;
 import java.util.HashSet;
@@ -44,7 +44,6 @@ public class TextUtils {
         }
         return setStr;
     }
-
 
     /**
      * 将set里面的数据写入到一个新的txt文件里面

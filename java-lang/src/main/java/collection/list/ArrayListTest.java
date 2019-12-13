@@ -1,4 +1,4 @@
-package com.littlefox.collection.list;
+package collection.list;
 
 import org.junit.Test;
 

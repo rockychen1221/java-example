@@ -1,4 +1,4 @@
-package com.littlefox.java8.datetime;
+package java8.datetime;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
