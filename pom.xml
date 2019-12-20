@@ -17,7 +17,7 @@
         <module>java-nio</module>
         <module>design-patterns</module>
         <module>java8</module>
-        <module>utils</module>
+        <module>util</module>
     </modules>
 
     <name>java-learning</name>

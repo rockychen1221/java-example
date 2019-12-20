@@ -1,4 +1,4 @@
-package utils;
+package util;
 
 import java.io.*;
 import java.util.HashSet;
@@ -9,7 +9,7 @@ import java.util.Set;
  * @version 1.0
  * @date 2019-11-19 15:31
  */
-public class TextUtils {
+public class TextUtil {
 
     /**
      * 读取指定目录下的txt文件，并添加到set里面（即去掉重复元素）
