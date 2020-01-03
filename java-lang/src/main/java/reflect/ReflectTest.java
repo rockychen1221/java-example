@@ -1,7 +1,5 @@
 package reflect;
 
-import java.io.File;
-
 /**
  * @author rockychen
  * @version 1.0
@@ -9,6 +7,6 @@ import java.io.File;
  */
 public class ReflectTest {
     public static void main(String[] args) {
-        File
+
     }
 }

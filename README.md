@@ -1,5 +1,23 @@
 # java-learning
-> 持续更新中
+> 个人学习过程的实践过程，持续更新中
+
+
+![](https://img.shields.io/badge/jdk-1.8.x-red)
+
+## util开源依赖
+
+#### Apache Commons Project
+<p align="center">
+	<a href="http://commons.apache.org/"><img src="http://commons.apache.org/images/commons-logo.png" width="400"></a>
+</p>
+
+> 官网请点击上图进入，翻译党请进->[这里！](https://blog.csdn.net/activity_time/article/details/81157503)
+
+#### HuTool
+<p align="center">
+	<a href="https://hutool.cn/"><img src="https://cdn.jsdelivr.net/gh/looly/hutool-site/images/logo.jpg" width="400"></a>
+</p>
+
 
 很多java开发的小伙伴都会阅读jdk源码，然而确不知道应该从哪读起。以下为小编整理的通常所需阅读的源码范围。
 标题为包名，后面序号为优先级1-4，优先级递减

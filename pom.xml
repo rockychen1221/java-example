@@ -28,6 +28,24 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+
+      <!--third jar -->
+      <commons.fileupload.version>1.3.3</commons.fileupload.version>
+      <commons.codec.version>1.10</commons.codec.version>
+      <commons.net.version>3.6</commons.net.version>
+      <commons.lang3.version>3.6</commons.lang3.version>
+      <junit.version>4.12</junit.version>
+      <ip2region.version>1.7.2</ip2region.version>
+      <hutool.version>5.1.0</hutool.version>
+      <bouncycastle.version>1.64</bouncycastle.version>
+      <!-- httpclient -->
+      <httpclient.version>4.5.8</httpclient.version>
+      <!-- fastjson -->
+      <fastjson.version>1.2.56</fastjson.version>
+      <lombok.version>1.18.0</lombok.version>
+      <!-- log4j -->
+      <slf4j.version>1.7.25</slf4j.version>
+      <eweb4j.version>0.8</eweb4j.version>
   </properties>
 
   <dependencies>
@@ -42,6 +60,69 @@
           <artifactId>commons-lang3</artifactId>
           <version>3.8.1</version>
       </dependency>
+
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>${lombok.version}</version>
+      </dependency>
+
+      <!--hutool start-->
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-core</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-crypto</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-http</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-script</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-setting</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-system</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-captcha</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-socket</artifactId>
+          <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.bouncycastle</groupId>
+          <artifactId>bcprov-jdk15on</artifactId>
+          <version>${bouncycastle.version}</version>
+      </dependency>
+      <!--hutool end-->
+
+
+      <dependency>
+          <groupId>org.eweb4j</groupId>
+          <artifactId>fel</artifactId>
+          <version>${eweb4j.version}</version>
+      </dependency>
+
+      
   </dependencies>
 
   <build>
