@@ -67,9 +67,6 @@ public class FelUtil {
      * @param d
      */
     public static String scientificNotation2Str(Object d) {
-        if (d == null) {
-            return "";
-        }
         NumberFormat nf = NumberFormat.getInstance();
         return nf.format(d);
     }
