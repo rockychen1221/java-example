@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamTest {
@@ -90,11 +91,38 @@ public class StreamTest {
         System.out.println("test min:");
         System.out.println(collected.stream().min(Comparator.comparing(s-> s)).get());
 
-        System.out.println(Stream.of().max(Comparator.comparing(s->s.toString())).get());
-
 
         // reduce 该操作可以实现从一组值中生成一个值，比如 count 、 max 、min 这些都是reduce操作
+        int count = collected.stream().reduce(0,(acc , element) -> acc + element);
 
+        int min = collected.stream().reduce(0,(acc , element) -> {
+            if (acc < element) {
+                return acc;
+            }
+            return element;
+        });
+        /**
+         * reduce 限制
+         * 非并行流 初始值可以为任意值
+         * 并行流 初始值必须为恒等值
+         */
+
+        System.out.println("test reduce count:");
+        System.out.println(count);
+        System.out.println("test reduce min:");
+        System.out.println(min);
+
+        // 并行流
+        int sum = collected.parallelStream().mapToInt(i->i).sum();
+        System.out.println(sum);
+        /**
+         * 影响并行流的5个因素
+         * 数据太小
+         * 源数据结构
+         * 装箱
+         * 核的数量
+         * 单元处理开销
+         */
 
     }
 }
