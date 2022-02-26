@@ -37,7 +37,7 @@
       <commons.lang3.version>3.6</commons.lang3.version>
       <junit.version>4.12</junit.version>
       <ip2region.version>1.7.2</ip2region.version>
-      <hutool.version>5.1.0</hutool.version>
+      <hutool.version>5.7.19</hutool.version>
       <bouncycastle.version>1.64</bouncycastle.version>
       <!-- httpclient -->
       <httpclient.version>4.5.8</httpclient.version>
